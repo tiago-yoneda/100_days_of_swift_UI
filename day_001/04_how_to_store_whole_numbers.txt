@@ -1,0 +1,12 @@
+declare the variable name and assign it a number as value without using quotes
+
+And to make it easier to read big numbers, you can use underscores. Swift ignores it.
+
+It's just a matter of ease to read.
+
+Same four basic arithmetic executors + - / *
+
+and short hand operator 
++=. -=, /= and *=
+
+has property isMultipleOf()
