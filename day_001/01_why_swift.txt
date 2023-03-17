@@ -1,0 +1,6 @@
+Makes it hard to write unsafe code
+Make it easy to write code that's clear and understandable
+Support all world's out of the box
+
+SwiftUI was designed for swift.
+Lots of power in your fingertips...

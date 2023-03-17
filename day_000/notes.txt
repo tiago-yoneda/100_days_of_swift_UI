@@ -1,3 +1,5 @@
+https://www.hackingwithswift.com/articles/230/how-to-become-an-ios-developer
+
 -> // -- Core Skills -- // <-
 1. Swift
 2. SwiftUI

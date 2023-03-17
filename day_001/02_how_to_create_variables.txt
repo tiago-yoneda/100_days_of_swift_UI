@@ -1,0 +1,12 @@
+'var' to create variables
+'let' to create constants
+
+give it a name, then equals something.
+
+use camelCasing
+try to use more constants than variables. To make sure you don't change the value by accident
+
+-- // --
+Variables are used to store temporary information.
+Swift won't allow you to create a two variables with the same name.
+If you don't change the value of a variable, swift will recommend you to change it to a constant.

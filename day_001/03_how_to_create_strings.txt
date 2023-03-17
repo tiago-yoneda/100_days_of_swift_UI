@@ -1,0 +1,20 @@
+create a variable and put the content inside double quotes
+you can use double quotes inside double quotes as long as you use back slashes
+
+let quote = "I like shorts, they are comfy and easy to wear"
+let quote2 = "This text reads \"Start\" I think"
+
+you can use multi line strings
+let movie = """
+This in
+an example of
+a multi line string
+"""
+
+to count the number of characters in a string
+print(string.count)
+
+string.uppercased()
+string.lowercased()
+
+You have the functions hasSulfix and hasPrefix. And they are case sensitive

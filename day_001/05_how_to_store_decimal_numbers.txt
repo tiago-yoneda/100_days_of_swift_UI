@@ -1,0 +1,15 @@
+Floating point.
+
+let number = 0.1 + 0.2
+print(number) results in 0.30000000000000004
+
+swift won't let us mix int and doubles.
+To make it work you must make either the int a double, or the double an int.
+
+let a = 1
+let b = 2.0
+let c = a + b won't work
+either Double(a) + b, or a + Int(b)
+
+Type safe language even if not explicit.
+reminds me of typescript
