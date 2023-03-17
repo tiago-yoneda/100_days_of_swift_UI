@@ -1,0 +1,88 @@
+-> // -- Core Skills -- // <-
+1. Swift
+2. SwiftUI
+3. Working with data
+4. Networking
+5. Version Control
+
+-> // -- Why SwiftUI -- // <-
+1. SwiftUI is easier
+2. SwiftUI was built for Swift
+3. SwiftUI works everywhere
+4. SwiftUI is the future
+
+---- // ----
+
+-> // -- Extension Skills -- // <-
+1. UIKit
+2. Core Data - not as comfortable on swift
+3. Testing
+4. Architecture
+5. Multithreading
+
+-- // -- Why UIKIT -- // --
+1. It's popular
+2. It's powerful
+3. It's precise
+4. It's proven
+
+Why not a core skill?
+- It has problems too
+- Everything is harder than SwiftUI
+- Wasn't made for swift fo there are tons of things that aren't used
+- Nothing about auto layout is auto... lol.
+- Takes more time and effor to learn.
+
+Why Core data?
+Really powerful, vastly used
+
+Why testing... it's self explanatory
+
+Why Software Architecture
+you get good by being bad for a long time 
+persevere with bad code until you get bad.
+Design Patterns
+
+Why Multithreading?
+Focus... don't go overboard
+
+-> // -- Common Mistakes <- // --
+1. Memorizing everything
+2. Shiny object syndrome
+3. Lone wolf learning
+4. Using beta Software
+5. Relying on Apple's documentation
+6. Getting lost in Objective-C
+7. Taking shots at other languages
+
+1 - Don't try to do it. DON'T. Repetition is the way.
+2 - Don't jump ship. ( go for easier stuff to escape problems )
+3 - Don't work for everyone. It's easy to lose motivation. Takes longer to learn
+4 - No tutorials, lots of bugs, takes time to get stable. Not worth it.
+5 - It's like trying to read a dictionary. Might not be useful
+6 - There are remnants in the code. But it has a notiable steep learning curve, almost nothing in common with swift.
+7 - Don't compare languages, that's not how it works.
+
+-- //-- Free resources --//--
+http://www.apple.com/uk/education/k12/teaching-code/
+https://developer.apple.com/tutorials/swiftui/
+https://docs.swift.org/swift-book/ more like a reference book
+https://www.hackingwithswift.com/
+https://youtu.be/VlhcNR7Qrno/
+https://youtu.be/51xIHDm_BDs/
+https://youtu.be/aP-SQXTtWhY
+
+- extra - 
+blckbirds.com/swiftui-tutorials
+raywenderlich.com
+donnywals.com
+avanderlee.com
+
+- APPS -
+Apple Swift Playground
+Unwrap
+
+- stackoverflow - sigh...
+
+Keep working.
+hackingwithswift.com/career-guide
