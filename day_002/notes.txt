@@ -1,0 +1,16 @@
+You can use print with multiple inputs
+print("This will show before the next part (", myVariable, ") and this will show after.")
+
+-- // -- Why have string interpolation -- // --
+You can inject custom data into strings at runtime to make things more dynamic.
+
+-- // -- https://www.hackingwithswift.com/articles/178/super-powered-string-interpolation-in-swift-5-0 -- // --
+The extra playground in this folder comes from this article.
+==> Come back to this video some day <==
+
+-> Swift 5.0 changes string interpolation <-
+You can have custom formatting on your interpolations
+you mutate the function that appendInterpolation, and use several parameters
+Really Flexible, must watch this again someday
+
+-- // -- Swift has ternary operators -- // --

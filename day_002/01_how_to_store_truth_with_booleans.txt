@@ -1,0 +1,18 @@
+Simple a true or false answer.
+
+Same as creating the others variables
+
+let goodDogs = true
+let gameOver = false
+
+let isMultiple = 120.isMultiple(if: 3)
+You can use '!' to flip the value of a boolean
+
+There's a boolean property called 'toggle' that flips it's value.
+
+var isAuthenticated = false
+print(isAuthenticated) -> prints false
+isAuthenticated = !isAuthenticated
+print(isAuthenticated) -> now prints true
+isAuthenticated.toggle()
+print(isAuthenticated) -> now prints false again
