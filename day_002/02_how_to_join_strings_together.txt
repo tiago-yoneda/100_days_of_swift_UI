@@ -1,0 +1,15 @@
+- If you have two strings you can just 'add' them
+
+let firstPart = "Hello, "
+let secondPart = "world"
+let wholeSentece = firstPart + secondPart
+
+However using this method to join several strings will be slow since it will join them two by two first.
+
+- Or you can use string interpolation
+let name = "Tiago"
+let age = 35
+let message = "Hello, my name is \(name) and I'm \(age) years old."
+
+You can add calculation inside strings interpolations.
+print("5 * 5 is \(5*5)")
