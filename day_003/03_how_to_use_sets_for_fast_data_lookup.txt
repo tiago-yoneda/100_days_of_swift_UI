@@ -1,0 +1,13 @@
+Don't care about orders, no duplicates
+
+You don't append, you insert values
+
+var setName = Set([
+  "...",
+  "...",
+  "...",
+])
+
+var newSet = Set<String>()
+
+Searching a set is way faster than searching an array.

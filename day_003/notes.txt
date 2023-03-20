@@ -1,0 +1,20 @@
+Strings
+
+Swift only allows an array of a single type of element.
+Type Safety
+
+Use typescript
+
+var albums = Array<String>()
+or
+var albums = [String]
+or
+var albums = ['Album name here']
+
+See array properties
+ - contains
+ - sorted
+ - reversed
+
+ Must read
+https://www.avanderlee.com/swift/array-vs-set-differences-explained/

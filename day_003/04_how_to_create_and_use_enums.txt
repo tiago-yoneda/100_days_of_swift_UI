@@ -1,0 +1,25 @@
+Kind of variable that can only take the listed values
+
+Looks like a switch case
+
+enum daysOfTheWeek {
+    case sunday
+    case monday
+    case tuesday
+    case wednesday
+    case thursday
+    case friday
+    case saturday
+}
+
+or simply 
+
+enum daysOfTheWeek {
+    case sunday, monday, tuesday, wednesday, thursday, friday, saturday
+}
+
+extra
+var day = daysOfTheWeek.monday
+day = .saturday
+
+Swift knows that 'day's type is daysOfTheWeek and since types are immutable, you just need to use '.saturday' for example, because the daysOfTheWeek is already implied

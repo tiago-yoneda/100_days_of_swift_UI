@@ -1,0 +1,12 @@
+Dictionaries don't have curly brackets
+
+let employee = [
+    "name": "Taylor Swift",
+    "job": "Singer",
+    "location": "Nashville"
+]
+
+print(employee["name", default: "Unknown"])
+The dictionary might not have the property you are trying to print, using the default: "Unknown" bypasses that (it might crash the code if there's no return value)
+
+var varName = [type: type]() - this is a dictionary
