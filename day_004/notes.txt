@@ -1,0 +1,12 @@
+You can pre define a constant by creating it giving it a type annotation and LATER you can assign it's value. 
+
+But you can assign it only since it's a contstant
+
+Swift must know at all times what's the data types of all your variables, ALL OF THEM!!!! \o/
+
+When should you use type annotations:
+Personal preference (kind of)
+
+Using swift automatic type inference will make the code shorter and easier to read. And makes changing the variable types easier since you only need to change it's initial value
+
+Using it all the time will probable save some errors in the future. It may be a little more rigid but there'll be no missassignments 
