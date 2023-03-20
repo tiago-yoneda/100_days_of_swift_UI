@@ -1,0 +1,10 @@
+declare array
+var beatles = ["John", "Paul", "George", "Ringo"]
+
+beatles.append("Adrian")
+
+var scores = Array<Int>() declara um array de Int
+scores.append(100)
+
+beatles.remove(at: )
+beatles.sorted() - returns an array, doesn't modify the original
