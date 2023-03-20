@@ -1,0 +1,21 @@
+let playerName: String = "Yoneda"
+let score: Double = 0 -> it should be int if based on the value of the variable, however swift overwrite the type and casts a double, if possible. The declared variable type has precedence over it's assignment.
+
+To declare an empty variable, you must use the type declaration
+
+var teams: [String] = [String]()
+
+var cities: [String] = []
+
+var clues = [Strings]()
+
+enums
+enum UIStyle {
+    case light, dark, system
+}
+
+var style = UIStyle.light
+
+// you can remove the enum name now that style MUST be an USStyle
+
+style = .dark
