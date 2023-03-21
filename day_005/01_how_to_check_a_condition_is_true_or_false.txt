@@ -1,0 +1,8 @@
+if condition {
+  do something
+}
+
+let speed = 88
+if speed >= 88 {
+  print("Where we're going, we don't need roads.")
+}

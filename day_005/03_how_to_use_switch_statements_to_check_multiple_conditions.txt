@@ -1,0 +1,36 @@
+enum Weather {
+    case sun, rain, wind, snow, unknown
+}
+
+var forecast = Weather.sun
+
+if forecast ==  .sun {
+    print("It should be a nice day.") // then continue with each case?
+}
+
+forecast = .snow
+
+switch forecast {
+case .sun:
+    print("It should be a nice day.")
+case .rain:
+    print("Pack an umbrella.")
+case .wind:
+    print("Wear something warm")
+case .snow:
+    print("School is cancelled")
+case .unknown:
+    print("Our forecast generator is broken!")
+default:
+    print("This is the default case")
+}
+
+enums and if conditions can get hard after a lots of cases
+so you should use switch cases.
+The default case goes last, swift won't let you put a case after a default
+using a 'fallthrough' will also run the next case.
+
+Switch vs if/else if
+- switch is exaustive, and swift won't let you miss any conditions on enums.
+- if statements will make the value be read several times, switch only reads it once.
+- switch cases allow for more settings
