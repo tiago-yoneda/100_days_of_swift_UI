@@ -1,0 +1,17 @@
+You can use the 'for in' structure
+
+let platforms = ["iOS", "macOS", "tvOS", "watchOS"]
+
+for os in platform {
+    print("Swift works great on \(os)")
+}
+
+swift may infer the name of the variable if it's in plural
+
+you can use for example 1...10 (for a range),
+1..<10 goes from 1 to 9.
+
+If you don't need the variabla, you can use '_'
+
+it's possible to make use 
+print(variableName[1...]) it'll print from 1 to the end of the array
