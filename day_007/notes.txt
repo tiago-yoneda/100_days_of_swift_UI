@@ -1,0 +1,7 @@
+IF your function only has one line of code, and you have explicit told swift that you return something, you DO NOT NEED TO USE a RETURN
+
+func rollDice (sides: Int) -> Int {
+    Int.random(in: 1...sides)
+}
+
+you can use empty returns on functions that do need a return value to use as early return
