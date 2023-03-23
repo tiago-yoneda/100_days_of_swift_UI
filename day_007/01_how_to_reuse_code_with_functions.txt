@@ -1,0 +1,8 @@
+func printTimesTable (number: Int, end: Int) {
+    for i in 1...end {
+        print ("\(number) * \(i) is \(i * number)")
+    }
+}
+
+printTimesTable(number: 7, end: 13)
+parameters must be given in the same order.

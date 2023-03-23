@@ -1,0 +1,10 @@
+func rollDice (sides: Int) -> Int {
+    return Int.random(in: 1...sides)
+}
+
+print()
+let result = rollDice(sides: 6)
+print(result)
+
+You must use types.
+

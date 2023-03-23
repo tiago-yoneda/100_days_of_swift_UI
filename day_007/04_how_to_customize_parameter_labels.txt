@@ -1,0 +1,41 @@
+You can have multiple functions with the same name.
+As long as the parameters are different.
+
+func play(song: String) {
+    print("Hey listen to this song called \(song)")
+}
+
+func play(movie: String) {
+    print("Hey, let's watch \(movie)")
+}
+
+func play(sport: String) {
+    print("Anyone wants to play \(sport)")
+}
+
+play(song: "All the small things")
+play(movie: "Tropical Thunder")
+play(sport: "Volleyball")
+
+like this you don't need to declare the name when calling the function
+func isUppercase (_ string: String) -> Bool{
+  string == string.uppercased()
+}
+
+let string = "HELLO, WORLD"
+let result - isUppercase(string)
+
+this way you can use another name to call the parameter name (external internal). 
+func printTimesTable(for number:Int){
+    for i in 1...12 {
+        print("\(i) x \(number) is \(i * number)")
+    }
+}
+printTimesTable(for: 5)
+passing an underscore _ let's you NOT use the parameter name when calling the function
+using another word, well... will let you use this other word instead of the parameter name...
+
+example where this can be useful
+function called buy
+buy(toothbrush) -> buy(item: toothbrush)
+read(book) -> read(book: book)

@@ -1,0 +1,19 @@
+Arrays aren't that good and dictionaries aren't good either, it's get messy
+
+Instead we use tuples
+
+--
+Swift can't know ahead of time if dictionary keys are present
+WHen you access tuple values, swift knows it'll be there
+we access values using variable.parameter, not a string
+Dictionary might contain hundred of other values, in tuples we specify what those values are beforehand
+
+You can ommit the tuple names, because swift knows the names, but you must use them in the same order.
+Also instead of naming the parameters, you can use numeric idexes.
+
+func getUser() -> (String, String) {
+  ("Tiago", "Yoneda")
+}
+
+let user = getUser()
+print("Name: \(user.1) \(user.2))
