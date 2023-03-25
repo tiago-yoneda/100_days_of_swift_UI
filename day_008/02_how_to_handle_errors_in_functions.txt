@@ -1,0 +1,41 @@
+1. define the kind of problems you can have in your code
+
+after the parameter use the keywork "throw" and then the "-> output"
+A function that throws an error must be used with a 
+'do catch' structure, and the call for the function that has the throw must be done using the 'try' keyword
+
+enum PasswordError: Error {
+    case short, obvious, niceTry
+}
+
+func checkPassword (_ password: String) throws -> String {
+    if password.count < 5 { throw PasswordError.short }
+    if password.hasPrefix("1234") { throw PasswordError.obvious }
+    if password.hasPrefix("qwert") { throw PasswordError.niceTry }
+    
+    if password.count < 8 {
+        return "OK"
+    } else if password.count < 10 {
+        return "Good"
+    } else {
+        return "Excellent"
+    }
+}
+
+let myPassword = "qwert"
+
+do {
+    let result = try checkPassword(myPassword)
+    print("Password rating \(result)")
+} catch PasswordError.short {
+    print("Please use a longer Password")
+} catch PasswordError.obvious {
+    print("My grandma has a password like this")
+} catch {
+    print("There was an error.")
+    print(error)
+}
+
+
+there's the 'try!', using this you must be sure that the function will not throw an error, and you don't need to use the 'do catch' block
+you can treat every type of error, or you can have your generic catch do it.

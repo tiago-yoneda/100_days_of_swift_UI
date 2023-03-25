@@ -1,0 +1,18 @@
+Same as js, just put a '=' after the parameter
+12 is the default parameter
+func printTimesTables (for number: Int, end: Int = 12) {
+    for i in 1...end {
+        print("\(i) x \(number) is \(1 * number)")
+    }
+}
+
+printTimesTables(for: 5, end: 20)
+printTimesTables(for: 8)
+
+
+var characters = ["Lana", "Pam", "Ray", "Sterling"]
+print(characters.count)
+characters.removeAll(keepCapacity: true) <- the variable will still have space available to hold that many items, however it'll be empty
+print(characters.count)
+
+Keep in mind that the default value for keepCapacity is 'false'
