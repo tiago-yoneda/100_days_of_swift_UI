@@ -1,0 +1,10 @@
+let captainFirstTeam = team.sorted { 
+    if $0 == "Suzanne" {
+        return true
+    } else if $1 == "Suzanne" {
+        return false
+    }
+    return $0 < $1
+};
+
+print(captainFirstTeam)
