@@ -1,0 +1,38 @@
+Every property inside your struct has an initial value
+
+struct Player {
+    let name: String
+    let number: Int
+    
+    init(name: String) {
+        self.name = name
+        number = Int.random(in: 1...99)
+    }
+}
+
+let player = Player(name: "Yoneda")
+print(player.number)
+
+Important if you use even one custom initializer, you lose access to swift automatically generated memberwise initializer. 
+
+Not an accident, because since you have your own initalizer, it's unsafe to use the auto generated stuff.
+
+If you want the custom initalizer you have to extend the initial struct
+
+struct Employee {
+    var name: String
+    var yearsActive = 0
+}
+
+extension Employee {
+    init() {
+        self.name = "Anonymous"
+        print("Creating an anonymous employee…")
+    }
+}
+
+// creating a named employee now works
+let roslin = Employee(name: "Laura Roslin")
+
+// as does creating an anonymous employee
+let anon = Employee()

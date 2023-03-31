@@ -1,0 +1,2 @@
+When changing date inside a struct, you can access special values using the keywords: newValue, oldValue. Also you can react to changes using willSet or didSet
+
