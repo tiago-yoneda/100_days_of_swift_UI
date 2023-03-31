@@ -1,0 +1,36 @@
+struct Album {
+  let title: String
+  let artist: String
+  let year: Int
+
+  func printSummary() {
+    print("\(title) (\(year)) by \(artist)")
+  }
+}
+
+you can't have a function inside the struct that changes it's parameters, unless that function is a mutating function.
+
+struct Employee {
+    let name: String
+    var vacationRemaining: Int
+    
+    mutating func takeVacation(days: Int) {
+        if vacationRemaining > days {
+            vacationRemaining -= days
+            print("I'm going on vacation!")
+            print("Days remaining: \(vacationRemaining)")
+        } else {
+            print("Oops! There aren't enough days remaining")
+        }
+    }
+}
+right
+var yoneda = Employee(name: "Yoneda", vacationRemaining: 30)
+wrong
+var yoneda = Employee(name: "Yoneda", vacationRemaining: 30)
+
+yoneda.takeVacation(days: 10)
+print(yoneda.vacationRemaining)
+// however you can't call a let on a struct and try a method that changes it's parameter.
+
+you can have a default value on a parameter, however if you initialize it as 'let' you will not be able to change it when you initialize.
