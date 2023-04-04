@@ -1,0 +1,29 @@
+struct BankAccount {
+    private var funds = 0
+
+    mutating func deposit(amount: Int) {
+        funds += amount
+        print("Successfuly deposited $\(amount)")
+    }
+
+    mutating func withdraw(amount: Int) -> Bool {
+        if funds >= amount {
+            funds -= amount
+            return true
+        } else{
+            return false
+        }
+    }
+
+    func currentState () {
+        print("Currently you have $\(funds) in your account")
+    }
+}
+
+var myWallet = BankAccount()
+
+myWallet.deposit(amount: 5000)
+myWallet.currentState()
+
+myWallet.funds = 10000
+myWallet.currentState()
